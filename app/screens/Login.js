@@ -1,5 +1,6 @@
 import React from 'react';
 import { View, Text } from 'react-native';
+import { withNavigation } from 'react-navigation';
 
 const Login = () => {
 
@@ -10,4 +11,4 @@ const Login = () => {
 	);
 };
 
-export default Login;
+export default withNavigation(Login);
